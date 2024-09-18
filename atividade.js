@@ -39,7 +39,7 @@ const nota3 = 10
 
 const media = (nota1 + nota2 + nota3) / 3
 
-        console.log(`O resultado da média é ${media.toPrecision(2)}.`)
+console.log(`O resultado da média é ${media.toPrecision(2)}.`)
 
 // Desconto:
 
@@ -73,12 +73,12 @@ const n4 = valor_final.toLocaleString('pt-BR', {style: 'currency', currency: 'US
 
 console.log(`Hoje, os ${n3} equivalem a ${n4} na cotação atual de ${taxa_cambio}.`)
 
-// Celcius para Fahrenheit:
+// Celsius para Fahrenheit:
 
-const Celcius = 34
-const Fahrenheit = (Celcius * 9 / 5) + 32
+const Celsius = 34
+const Fahrenheit = (Celsius * 9 / 5) + 32
 
-console.log(`Está fazendo ${Celcius}°C aqui no Brasil, lá nos EUA seria igual a ${Fahrenheit}°F.`)
+console.log(`Está fazendo ${Celsius}°C aqui no Brasil, lá nos EUA seria igual a ${Fahrenheit}°F.`)
 
 // IMC:
 
