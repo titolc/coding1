@@ -75,7 +75,7 @@ console.log(`Hoje, os ${n3} equivalem a ${n4} na cotação atual de ${taxa_cambi
 
 // Celsius para Fahrenheit:
 
-const Celsius = 34
+const Celsius = 35
 const Fahrenheit = (Celsius * 9 / 5) + 32
 
 console.log(`Está fazendo ${Celsius}°C aqui no Brasil, lá nos EUA seria igual a ${Fahrenheit}°F.`)
